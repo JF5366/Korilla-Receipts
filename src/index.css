@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.receiptItem{
+  border: 2px solid red;
+  padding: 1em;
+  margin: 1em;
+  min-width: 25%;
+  flex: 1fr 1fr 1fr;
+  text-align: start;
+}
+.receiptFullList{
+  display: flex;
+}
+.name{
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+.receiptItem>h3{
+  padding-bottom: .8em;
+}
